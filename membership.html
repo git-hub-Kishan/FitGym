@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>MEMBERSHIP-FIT@GYM</title>
+    <link rel="stylesheet" href="stylei.css">
+    <link rel="icon" href="images/logo.png" type="image/icon type">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="bgcolour">
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="services.html">SERVICES/EQUIPMENTS</a></li>
+                        <li><a href="membership.html">MEMBERSHIP</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" style="color:white" onclick="showmenu()"></i>
+            </nav>
+            <h1>Membership</h1>
+        </section>
+        <div class="container">
+            <div class="pricing-table table1">
+                <div class="pricing-header">
+                    <div class="price"><span>₹</span>1999</div>
+                    <div class="title">Silver</div>
+                </div>
+                <ul class="pricing-list">
+                    <li><strong>1 Month</strong> valid</li>
+                    <div class="border"></div>
+                    <li><strong>Locker</strong> Room</li>
+                    <div class="border"></div>
+                    <li><strong>No</strong> Diet Plan</li>
+                    <div class="border"></div>
+                    <li><strong>Common</strong> Trainer</li>
+                    <div class="border"></div>
+                    <li><strong>No</strong> Welcome Gifts</li>
+                </ul>
+                <a href="#">Order Now</a>
+            </div>
+
+            <div class="pricing-table table2">
+                <div class="pricing-header">
+                    <div class="price"><span>₹</span>4999</div>
+                    <div class="title">Gold</div>
+                </div>
+                <ul class="pricing-list">
+                    <li><strong>3 Months</strong> valid</li>
+                    <div class="border"></div>
+                    <li><strong>Locker</strong> room</li>
+                    <div class="border"></div>
+                    <li><strong>1 Month</strong> Diet Plan</li>
+                    <div class="border"></div>
+                    <li><strong>Common</strong> Trainer</li>
+                    <div class="border"></div>
+                    <li><strong>Free</strong> Gym Bag</li>
+                </ul>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="pricing-table table3">
+                <div class="pricing-header">
+                    <div class="price"><span>₹</span>9999</div>
+                    <div class="title">Platinum</div>
+                </div>
+                <ul class="pricing-list">
+                    <li><strong>6 Months</strong> valid</li>
+                    <div class="border"></div>
+                    <li><strong>Locker</strong> oom</li>
+                    <div class="border"></div>
+                    <li><strong>4 Months</strong> Diet Plan</li>
+                    <div class="border"></div>
+                    <li><strong>Personal</strong> Trainer</li>
+                    <div class="border"></div>
+                    <li><strong>Free</strong> Bag & Sipper</li>
+                </ul>
+                <a href="#">Order Now</a>
+            </div>
+
+            <div class="pricing-table table4">
+                <div class="pricing-header">
+                    <div class="price"><span>₹</span>15999</div>
+                    <div class="title">Diamond</div>
+                </div>
+                <ul class="pricing-list">
+                    <li><strong>12 Months</strong> valid</li>
+                    <div class="border"></div>
+                    <li><strong>Locker</strong> room</li>
+                    <div class="border"></div>
+                    <li><strong>12 Months</strong> Diet Plan</li>
+                    <div class="border"></div>
+                    <li><strong>Personal</strong> Trainer</li>
+                    <div class="border"></div>
+                    <li><strong>Free</strong> Bag, Sipper& Protein</li>
+                </ul>
+                <a href="#">Order Now</a>
+            </div>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+        <section class="footer">
+            <h4><u>About Us</u></h4>
+            <p>The process of self-evolution through unparalleled training module, unprecedented ambiance, <br>state of
+                the art infra with introduction of the latest technology to keep check on your daily progress at
+                FIT@GYM.<br>At FIT@GYM , you will get one-to-one assistance to refine and correct the poses (asanas) for
+                more benefit, specific sessions are also available for beginners.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-whatsapp"></i>
+            </div>
+        </section>
+
+        <!----------------------------------------------------------------------------->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showmenu() {
+                navLinks.style.right = "0";
+            }
+            function hidemenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </section>
+</body>
+
+</html>
